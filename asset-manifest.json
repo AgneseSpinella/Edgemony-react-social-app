@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Edgemony-react-social-app/static/css/main.b5759ec4.chunk.css",
-    "main.js": "/Edgemony-react-social-app/static/js/main.39660ecd.chunk.js",
-    "main.js.map": "/Edgemony-react-social-app/static/js/main.39660ecd.chunk.js.map",
+    "main.js": "/Edgemony-react-social-app/static/js/main.19b5daae.chunk.js",
+    "main.js.map": "/Edgemony-react-social-app/static/js/main.19b5daae.chunk.js.map",
     "runtime-main.js": "/Edgemony-react-social-app/static/js/runtime-main.803bbc8b.js",
     "runtime-main.js.map": "/Edgemony-react-social-app/static/js/runtime-main.803bbc8b.js.map",
     "static/js/2.406d8ac9.chunk.js": "/Edgemony-react-social-app/static/js/2.406d8ac9.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.803bbc8b.js",
     "static/js/2.406d8ac9.chunk.js",
     "static/css/main.b5759ec4.chunk.css",
-    "static/js/main.39660ecd.chunk.js"
+    "static/js/main.19b5daae.chunk.js"
   ]
 }
