@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Edgemony-react-social-app/static/css/main.b5759ec4.chunk.css",
-    "main.js": "/Edgemony-react-social-app/static/js/main.19b5daae.chunk.js",
-    "main.js.map": "/Edgemony-react-social-app/static/js/main.19b5daae.chunk.js.map",
-    "runtime-main.js": "/Edgemony-react-social-app/static/js/runtime-main.803bbc8b.js",
-    "runtime-main.js.map": "/Edgemony-react-social-app/static/js/runtime-main.803bbc8b.js.map",
-    "static/js/2.406d8ac9.chunk.js": "/Edgemony-react-social-app/static/js/2.406d8ac9.chunk.js",
-    "static/js/2.406d8ac9.chunk.js.map": "/Edgemony-react-social-app/static/js/2.406d8ac9.chunk.js.map",
-    "static/js/3.e7cae947.chunk.js": "/Edgemony-react-social-app/static/js/3.e7cae947.chunk.js",
-    "static/js/3.e7cae947.chunk.js.map": "/Edgemony-react-social-app/static/js/3.e7cae947.chunk.js.map",
+    "main.css": "/Edgemony-react-social-app/static/css/main.e53b7060.chunk.css",
+    "main.js": "/Edgemony-react-social-app/static/js/main.3942a02a.chunk.js",
+    "main.js.map": "/Edgemony-react-social-app/static/js/main.3942a02a.chunk.js.map",
+    "runtime-main.js": "/Edgemony-react-social-app/static/js/runtime-main.5d17e8d0.js",
+    "runtime-main.js.map": "/Edgemony-react-social-app/static/js/runtime-main.5d17e8d0.js.map",
+    "static/js/2.850f36e0.chunk.js": "/Edgemony-react-social-app/static/js/2.850f36e0.chunk.js",
+    "static/js/2.850f36e0.chunk.js.map": "/Edgemony-react-social-app/static/js/2.850f36e0.chunk.js.map",
+    "static/js/3.d0f1cc9f.chunk.js": "/Edgemony-react-social-app/static/js/3.d0f1cc9f.chunk.js",
+    "static/js/3.d0f1cc9f.chunk.js.map": "/Edgemony-react-social-app/static/js/3.d0f1cc9f.chunk.js.map",
     "index.html": "/Edgemony-react-social-app/index.html",
-    "static/css/main.b5759ec4.chunk.css.map": "/Edgemony-react-social-app/static/css/main.b5759ec4.chunk.css.map",
-    "static/js/2.406d8ac9.chunk.js.LICENSE.txt": "/Edgemony-react-social-app/static/js/2.406d8ac9.chunk.js.LICENSE.txt"
+    "static/css/main.e53b7060.chunk.css.map": "/Edgemony-react-social-app/static/css/main.e53b7060.chunk.css.map",
+    "static/js/2.850f36e0.chunk.js.LICENSE.txt": "/Edgemony-react-social-app/static/js/2.850f36e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.803bbc8b.js",
-    "static/js/2.406d8ac9.chunk.js",
-    "static/css/main.b5759ec4.chunk.css",
-    "static/js/main.19b5daae.chunk.js"
+    "static/js/runtime-main.5d17e8d0.js",
+    "static/js/2.850f36e0.chunk.js",
+    "static/css/main.e53b7060.chunk.css",
+    "static/js/main.3942a02a.chunk.js"
   ]
 }
