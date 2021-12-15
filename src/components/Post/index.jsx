@@ -13,7 +13,7 @@ const Post = (props) => {
         <h3>{data.author}</h3>
             <p><small>{data.date.toLocaleDateString()} - {data.date.toLocaleTimeString()}</small></p>
             <p>{data.text}</p>
-             { data.photo ? <img src={data.photo} alt="post image"/> : <></>}
+             { data.photo ? <img src={data.photo} alt="post"/> : <></>}
         </article>
     )
 }
