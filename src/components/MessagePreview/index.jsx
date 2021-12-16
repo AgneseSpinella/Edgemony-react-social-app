@@ -1,22 +1,18 @@
-import { formatDistance } from "date-fns"
-import { it } from 'date-fns/locale'
+
 import styles from "./MessagePreview.module.scss";
+import {DisplayTime} from "../Date";
 
 const MessagePreview = (props) => {
-   
-        const data = props.data || {
-            text:" lorem  ipsum", date: new Date(), sender:"Pippo"
-        }
-
-    return ( 
-         <div className={styles.message}>
+    const data = props.data || {
+        text: "lore ipsum", date: new Date(), sender: "user"
+    }
+    return (
+        <div className={styles.message}>
             <h5>{data.sender}</h5>
-            <p><small>
-            {formatDistance(new Date(data.date), new Date(), {addSuffix: true, locale: it})}
-            </small></p>
+            <p><DisplayTime date={data.date}/></p>
             <p>{data.text}</p>
         </div>
     )
 }
 
-export {MessagePreview}
+export {MessagePreview};
