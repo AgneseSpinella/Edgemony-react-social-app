@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Edgemony-react-social-app/static/css/main.e53b7060.chunk.css",
-    "main.js": "/Edgemony-react-social-app/static/js/main.18542799.chunk.js",
-    "main.js.map": "/Edgemony-react-social-app/static/js/main.18542799.chunk.js.map",
+    "main.css": "/Edgemony-react-social-app/static/css/main.1c8b9ab5.chunk.css",
+    "main.js": "/Edgemony-react-social-app/static/js/main.525c5f10.chunk.js",
+    "main.js.map": "/Edgemony-react-social-app/static/js/main.525c5f10.chunk.js.map",
     "runtime-main.js": "/Edgemony-react-social-app/static/js/runtime-main.227983f6.js",
     "runtime-main.js.map": "/Edgemony-react-social-app/static/js/runtime-main.227983f6.js.map",
-    "static/js/2.d0897f74.chunk.js": "/Edgemony-react-social-app/static/js/2.d0897f74.chunk.js",
-    "static/js/2.d0897f74.chunk.js.map": "/Edgemony-react-social-app/static/js/2.d0897f74.chunk.js.map",
+    "static/js/2.0ddd3f60.chunk.js": "/Edgemony-react-social-app/static/js/2.0ddd3f60.chunk.js",
+    "static/js/2.0ddd3f60.chunk.js.map": "/Edgemony-react-social-app/static/js/2.0ddd3f60.chunk.js.map",
     "static/js/3.cf5780d0.chunk.js": "/Edgemony-react-social-app/static/js/3.cf5780d0.chunk.js",
     "static/js/3.cf5780d0.chunk.js.map": "/Edgemony-react-social-app/static/js/3.cf5780d0.chunk.js.map",
     "index.html": "/Edgemony-react-social-app/index.html",
-    "static/css/main.e53b7060.chunk.css.map": "/Edgemony-react-social-app/static/css/main.e53b7060.chunk.css.map",
-    "static/js/2.d0897f74.chunk.js.LICENSE.txt": "/Edgemony-react-social-app/static/js/2.d0897f74.chunk.js.LICENSE.txt"
+    "static/css/main.1c8b9ab5.chunk.css.map": "/Edgemony-react-social-app/static/css/main.1c8b9ab5.chunk.css.map",
+    "static/js/2.0ddd3f60.chunk.js.LICENSE.txt": "/Edgemony-react-social-app/static/js/2.0ddd3f60.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.227983f6.js",
-    "static/js/2.d0897f74.chunk.js",
-    "static/css/main.e53b7060.chunk.css",
-    "static/js/main.18542799.chunk.js"
+    "static/js/2.0ddd3f60.chunk.js",
+    "static/css/main.1c8b9ab5.chunk.css",
+    "static/js/main.525c5f10.chunk.js"
   ]
 }
