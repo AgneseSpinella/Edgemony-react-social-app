@@ -10,7 +10,7 @@ const Post = (props) => {
         photo: "https://images.unsplash.com/photo-1501820488136-72669149e0d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80",
     }
 
-    const createDate = (date) => new Date(date)
+
 
     return (
         <article className={styles.post}>
