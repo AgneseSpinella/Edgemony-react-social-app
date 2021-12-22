@@ -2,6 +2,7 @@ import { formatDistance } from "date-fns";
 import { it } from "date-fns/locale";
 import { httpDELETE } from "../../libs/http";
 import styles from "./Post.module.scss";
+import { Modal } from "../Banner";
 
 const Post = (props) => {
   const data = props.data || {
@@ -14,7 +15,10 @@ const Post = (props) => {
 
   const handleDeletePost = () => {
     httpDELETE(`/posts/${props.data.id}`).then(() => {});
-    alert(`Post by ${props.data.author} was deleted`);
+    <div>
+      <button>Show modal</button>
+      <Modal/>
+    </div>
     window.location.href = "/";
   };
 

@@ -7,6 +7,7 @@ import NewPost from "./pages/NewPost";
 import Messages from "./pages/Messages";
 import Friends from "./pages/Friends";
 
+
 import Home from "./pages/Home";
 
 const INIT_STATE = {

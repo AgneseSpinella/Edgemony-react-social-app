@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { httpPOST } from "../../libs/http";
+import { Modal } from "../Banner";
 import styles from "./CreatePost.module.scss";
 
 const CreatePost = () => {
@@ -8,10 +9,14 @@ const CreatePost = () => {
   const [messageInput, setMessageInput] = useState("");
   const [formPostObj, setFormPostObj] = useState({});
 
+  const [show, setShow] = useState(false);
+
   const handleSendBtn = (event) => {
     event.preventDefault();
     httpPOST("/posts", formPostObj);
-    alert("Il post `e stato creato!");
+    <div>
+      <Modal show={show}/>
+    </div>
   };
 
   useEffect(() => {
@@ -49,6 +54,7 @@ const CreatePost = () => {
           <button type="submit" onClick={handleSendBtn}>
             SEND
           </button>
+          <button onClick={() => setShow(true)}> show</button>
         </div>
 
         <textarea
