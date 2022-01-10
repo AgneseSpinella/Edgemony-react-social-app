@@ -6,8 +6,8 @@ import Messages from "./pages/Messages";
 import Friends from "./pages/Friends";
 import Login from "./pages/Login";
 
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 import Home from "./pages/Home";
 
