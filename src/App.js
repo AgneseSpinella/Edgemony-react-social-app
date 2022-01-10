@@ -1,12 +1,13 @@
 import { useReducer } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import NewPost from "./pages/NewPost";
 import Messages from "./pages/Messages";
 import Friends from "./pages/Friends";
 import Login from "./pages/Login";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 
