@@ -17,7 +17,7 @@ const Header = (props) => {
 
   return (
     <header className={styles.header}>
-      <h1>{name}</h1>
+      <h1 style={{ fontFamily: props.font }}>{name}</h1>
       <nav>
         <ul>
           {links.map((item, index) => (

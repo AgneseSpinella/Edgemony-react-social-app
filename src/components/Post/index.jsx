@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { formatDistance } from "date-fns";
 import { it } from "date-fns/locale";
 import { httpDELETE } from "../../libs/http";
+
+import Modal from "./../Modal";
 import styles from "./Post.module.scss";
-import { Modal } from "../Banner";
 
 const Post = (props) => {
   const data = props.data || {
@@ -15,15 +17,21 @@ const Post = (props) => {
 
   const handleDeletePost = () => {
     httpDELETE(`/posts/${props.data.id}`).then(() => {});
-    <div>
-      <button>Show modal</button>
-      <Modal/>
-    </div>
-    window.location.href = "/";
+    setModalVisibile(true);
+
+    setTimeout(() => {
+      setModalVisibile(false);
+      window.location.href = "/";
+    }, 3000);
   };
+
+  const [isModalVisible, setModalVisibile] = useState(false);
 
   return (
     <article className={styles.post}>
+      {isModalVisible && (
+        <Modal bgColor="lightcoral" text="Il post è stato rimosso" />
+      )}
       <button onClick={handleDeletePost} className={styles.deleteBtn}>
         X
       </button>

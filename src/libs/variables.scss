@@ -1,12 +1,15 @@
-
-// colors
-$main:#3498db;
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@400;700&family=Press+Start+2P&family=Pushster&display=swap");
+// Colors
+$main: #3498db;
+$secondary: #323232;
 $white: #fff;
 $lightGray: #ecf0f1;
 
-
-// transition
+// Transitions
 $baseTransition: all 0.4s ease;
 
-//box
+// Box
 $sidePadding: 30px;
+
+// Fonts
+$fancyFont: "Pushster", cursive;

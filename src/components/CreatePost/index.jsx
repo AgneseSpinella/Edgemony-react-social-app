@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { httpPOST } from "../../libs/http";
-import { Modal } from "../Banner";
+
+import Modal from "./../Modal";
 import styles from "./CreatePost.module.scss";
 
 const CreatePost = () => {
@@ -8,15 +9,16 @@ const CreatePost = () => {
   const [imgInput, setImgInput] = useState("");
   const [messageInput, setMessageInput] = useState("");
   const [formPostObj, setFormPostObj] = useState({});
-
-  const [show, setShow] = useState(false);
+  const [isModalVisible, setModalVisibile] = useState(false);
 
   const handleSendBtn = (event) => {
     event.preventDefault();
     httpPOST("/posts", formPostObj);
-    <div>
-      <Modal show={show}/>
-    </div>
+    setModalVisibile(true);
+
+    setTimeout(() => {
+      setModalVisibile(false);
+    }, 3000);
   };
 
   useEffect(() => {
@@ -30,6 +32,10 @@ const CreatePost = () => {
 
   return (
     <div className={styles.createPost}>
+      {isModalVisible && (
+        <Modal bgColor="lightskyblue" text="Il post è stato aggiunto" />
+      )}
+
       <form>
         <div className={styles.__author}>
           <input
@@ -54,7 +60,6 @@ const CreatePost = () => {
           <button type="submit" onClick={handleSendBtn}>
             SEND
           </button>
-          <button onClick={() => setShow(true)}> show</button>
         </div>
 
         <textarea
