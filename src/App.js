@@ -7,7 +7,7 @@ import Friends from "./pages/Friends";
 import Login from "./pages/Login";
 
 import Footer from "./components/Footer";
-//import Header from "./components/Header";
+import Header from "./components/Header";
 
 import Home from "./pages/Home";
 
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div>
-      
+      <Header name={state.name} font={state.fontFamily} links={state.nav} />
 
       <button
         onClick={() => {
