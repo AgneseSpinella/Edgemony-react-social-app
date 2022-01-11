@@ -1,0 +1,22 @@
+
+.loading {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+}
