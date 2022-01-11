@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div>
-      <Header name={state.name} font={state.fontFamily} links={state.nav} />
+      
 
       <button
         onClick={() => {
