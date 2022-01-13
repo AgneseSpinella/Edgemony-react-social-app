@@ -1,5 +1,4 @@
-
-// import styles from "./PaginationItem.module.scss";
+import styles from "./PaginationItem.module.scss";
 
 const PaginationItem = ({ pageNumber, callback }) => {
     return (
