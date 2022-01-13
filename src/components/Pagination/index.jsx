@@ -27,4 +27,5 @@ const Pagination = ({ setActualButtonNum }) => {
   );
 };
 
+
 export default Pagination;
