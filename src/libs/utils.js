@@ -1,3 +1,3 @@
-const greetings = (name) => `Hello dear ${name}`;
+const greetings = (name) => `Hello dear ${name}!!`;
 
-export {greetings}; 
+export {greetings};

@@ -1,16 +1,20 @@
 import { greetings } from "./../utils";
 
-it('test greetings() function', () => {
-    const result = greetings('Agnese');
-    expect(result).toBe("Hello dear Agnese")
-})
+describe("Greetings function", () => {
+  it("test greetings() function", () => {
+    const result = greetings("Salvatore");
+    expect(result).toBe("Hello dear Salvatore!!");
+  });
 
-it('test greetings() function without passing a parameter', () => {
+  it("test greetings() function without passing a parameter", () => {
     const result = greetings();
-    expect(result).toBe("Hello dear Agnese!!")
-})
+    expect(result).toBe("Hello dear undefined!!");
+  });
+});
 
-it("testin and array", () => {
-    const arr = [1,2,3]
-    expect(arr).toEqual([1,2,3]);
+describe("Example tests", () => {
+  it("testing an array", () => {
+    const arr = [1, 2, 3];
+    expect(arr).toEqual([1, 2, 3]);
+  });
 });
